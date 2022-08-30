@@ -19,3 +19,8 @@ print('Valores: ', valores)
 subs = re.sub(r'[a-f]', 'OK', texto)
 print(subs)
 # 0,1,2,3,4,5,6,7,8,9,OK,OK,OK,OK,OK,OK
+
+
+# ====== Global, IgnoreCase ====== #
+match = re.findall(r'A', texto, re.I)
+print(match)
